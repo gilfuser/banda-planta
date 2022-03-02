@@ -8,7 +8,7 @@ Ndef(\theSuc).addSpec(\msg, [0, 667])
 OSCdef(\oscFromSuculenta, { |msg|
 	Ndef(\theSuc).value(msg);
 	MFdef(\theSuc).value(msg);
-}, '/suculenta', recvPort: 57121 ).permanent_(true)
+}, '/suculenta', recvPort: 57120 ).permanent_(true)
 );
 
 (
